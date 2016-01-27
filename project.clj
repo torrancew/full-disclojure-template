@@ -1,4 +1,4 @@
-(defproject full-disclojure/lein-template "0.1.0"
+(defproject full-disclojure/lein-template "0.1.1-SNAPSHOT"
   :description "A Leiningen template for webapps built with Compojure and Om"
   :url "https://github.com/torrancew/full-disclojure-template"
   :license {:name "Eclipse Public License"
