@@ -1,4 +1,4 @@
-(defproject {{name}} "0.0.1-SNAPSHOT"
+(defproject {{name}} "0.1.0-SNAPSHOT"
   :description "FIXME: write a description"
   :url "https://example.com/FIXME"
   :min-lein-version "2.0.0"
@@ -52,7 +52,8 @@
          :resource-paths ["env/dev/resources"]}
    :test {:resource-paths ["env/test/resources"]}
    :production {:env {:production true}}
-   :uberjar {:aot :all}}
+   :uberjar {:aot :all
+             :main {{name}}.server}}
   :target-path "target/%s"
   :clean-targets ^{:protect false} ["target"
                                     "resources/public/js"

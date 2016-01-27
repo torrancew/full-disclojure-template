@@ -29,6 +29,4 @@
     {:target (. js/document
                  (getElementById "app"))}))
 
-(defn ^:export -main
-  [& args]
-  (app))
+(def ^:export main app)
